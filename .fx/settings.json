@@ -1,0 +1,25 @@
+{
+    "appName": "sampleswa",
+    "projectId": "c72c52f4-b63c-4afc-97ff-2e852634ede1",
+    "solutionSettings": {
+        "name": "fx-solution-azure",
+        "version": "1.0.0",
+        "hostType": "Azure",
+        "capabilities": [
+            "Tab"
+        ],
+        "azureResources": [
+            "function"
+        ],
+        "activeResourcePlugins": [
+            "fx-resource-frontend-hosting",
+            "fx-resource-aad-app-for-teams",
+            "fx-resource-function",
+            "fx-resource-local-debug",
+            "fx-resource-appstudio",
+            "fx-resource-simple-auth"
+        ]
+    },
+    "programmingLanguage": "javascript",
+    "defaultFunctionName": "getUserProfile"
+}
